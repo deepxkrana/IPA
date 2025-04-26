@@ -1,5 +1,6 @@
 {
   "name": "vite-react-typescript-starter",
+  "homepage": "https://deepxkrana.github.io/IPA",
   "private": true,
   "version": "0.0.0",
   "type": "module",
