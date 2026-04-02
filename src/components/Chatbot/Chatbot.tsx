@@ -51,7 +51,6 @@ const Chatbot: React.FC = () => {
     // Gemini API call for real AI response
     ;(async () => {
       try {
-        const apiKey = "AIzaSyDC8JMreI-HyeW2IU5vk4iIWEheT6D0CZQ";
         const response = await fetch(
           `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent?key=${apiKey}`,
           {
